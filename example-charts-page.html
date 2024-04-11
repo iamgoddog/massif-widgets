@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    .chart{
+        width: 500px;
+        height: 400px;
+    }
+  </style>
+</head>
+<body >
+<main class="container-fluid" >
+  <h1>Example news page</h1>
+  <article>
+    <div>Some incredible news text</div>
+    <div>Here is are the lighting charts</div>
+    <div class="chart">
+      <script
+        data-widget="massif-location-charts-widget"
+        data-settings='{"slug": "myvatn-nature-baths", "type":"lighting", "utm_source": "testing_source", "utm_campaign": "some_campaign_name"}'
+        src="https://massif-web-git-featopenai-massif-network.vercel.app/w/location-charts-widget.js"
+      ></script>
+    </div>
+    <div>That is some nice weather you have there</div>
+  </article>
+  <article>
+    <div>More incredible news text</div>
+    <div>Here is the historic climate</div>
+    <div class="chart">
+      <script
+        data-widget="massif-location-charts-widget"
+        data-settings='{"slug": "myvatn-nature-baths", "type":"climate", "utm_source": "testing_source", "utm_campaign": "some_campaign_name"}'
+        src="https://massif-web-git-featopenai-massif-network.vercel.app/w/location-charts-widget.js"
+      ></script>
+    </div>
+    <div>That is some climate you have there</div>
+  </article>
+</main>
+</body>
+</html>
