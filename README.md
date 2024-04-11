@@ -17,9 +17,9 @@ Include the following script tag in your html where you would like the widget co
 ```
 
 #### Script settings
-data-settings (as typescript type)
+**data-settings**
 ```typescript
-export type MassifWidgetDataSettings = {
+type MassifWidgetDataSettings = {
   /** The slug part of the location you want to include the charts from, i.e. in https://app.massif.network/locations/vatnsdalur, "vatnsdalur" is the slug */
   slug: string;
   /** The chart types available, each of these include tabs that the user can go between */
