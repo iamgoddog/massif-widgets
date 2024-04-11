@@ -41,4 +41,5 @@ Example:
 }
 ```
 or
+
 `data-settings='{"slug":"vatnsdalur","type":"lighting","utm_source":"Acme","utm_campaign":"AcmeWidgetCampaign"}'`
